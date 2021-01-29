@@ -1,0 +1,21 @@
+.skills__container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.skills__skillHighlightButton {
+  width: 250px;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+}
+
+.skills__skillHighlightButtonContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}

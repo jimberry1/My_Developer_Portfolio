@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "label": "diamond",
+    "symbol": "💎",
+    "skillDescription": "Strong problem solving skills"
+  },
+  {
+    "id": "2",
+    "label": "rocket",
+    "symbol": "🚀",
+    "skillDescription": "Striving for innovation"
+  },
+  {
+    "id": "3",
+    "label": "books",
+    "symbol": "📚",
+    "skillDescription": "Passionate about learning"
+  },
+  {
+    "id": "4",
+    "label": "bath",
+    "symbol": "🛁",
+    "skillDescription": "Clean code enthusiast"
+  }
+]

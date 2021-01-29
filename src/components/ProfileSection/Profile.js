@@ -1,18 +1,18 @@
 import React from "react"
 
 import styled from "styled-components"
-import Avatar from "../components/avatar"
-import SkillsBar from "../components/SkillsBar"
-import Aboutme from "../components/Aboutme"
-import "../components/skillbar.css"
-import KeySkill from "../components/keySkill"
-import KeySkillsData from "../data/KeySkills.json"
+import Avatar from "../avatar"
+import SkillsBar from "../SkillsBar"
+import Aboutme from "../Aboutme"
+import "../skillbar.css"
+import KeySkill from "../keySkill"
+import KeySkillsData from "../../data/KeySkills.json"
 import {
   TopSkillsContainer,
   InfoAndSkillsSection,
-} from "../components/generalStyling/ProfileSectionStyling"
+} from "../generalStyling/ProfileSectionStyling"
 
-const Services = () => (
+const Profile = () => (
   <div className="personalInfoBody">
     <div style={{ marginTop: "40px" }}>
       <Avatar />
@@ -52,4 +52,4 @@ const Services = () => (
   </div>
 )
 
-export default Services
+export default Profile

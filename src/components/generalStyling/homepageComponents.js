@@ -72,35 +72,34 @@ export const Container = styled.div`
     display: block;
   }
 `
+// const text = keyframes`
+// 0% {
+// color: black;
+// margin-bottom: -40px;
+// } 30% {
+//   letter-spacing: 25px;
+//   margin-bottom: -40px;
+// }
+// 85% {
+//   letter-spacing: 8px;
+//   margin-bottom: -40px;
+// }`
 
-export const Text1 = styled.span`
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 8px;
-  margin-bottom: 20px;
-  color: white;
-  background: black;
-  position: relative;
-  animation: ${text} 3s infinite;
-`
+// export const Text1 = styled.span`
+//   font-size: 60px;
+//   font-weight: 700;
+//   letter-spacing: 8px;
+//   margin-bottom: 20px;
+//   color: white;
+//   background: black;
+//   position: relative;
+//   animation: ${text} 3s infinite;
+// `
 
 export const Text2 = styled.span`
   font-size: 30px;
   color: #6ab04c;
 `
-
-const text = keyframes`
-0% {
-color: black;
-margin-bottom: -40px; 
-} 30% {
-  letter-spacing: 25px;
-  margin-bottom: -40px; 
-}
-85% {
-  letter-spacing: 8px; 
-  margin-bottom: -40px;
-}`
 
 export const ArrowsContainer = styled.div`
 height: 400px;

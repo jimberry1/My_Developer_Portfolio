@@ -1,8 +1,6 @@
 import BackgroundImage from "gatsby-background-image"
 import React from "react"
-import styled from "styled-components"
 import { StaticQuery, graphql, Link } from "gatsby"
-import Img from "gatsby-image"
 import {
   ProjectContainer,
   LearnMoreContainer,
@@ -10,13 +8,13 @@ import {
   BackgroundImageInnerContainer,
 } from "./componentStyles"
 
-const ProjectMafia = props => (
+const ProjectLibrary = props => (
   <StaticQuery
     query={graphql`
-      query projectImageQuery {
+      query projectLibraryQuery {
         file(
           childImageSharp: { gatsbyImageData: {} }
-          relativePath: { eq: "TBFlogo1024.jpeg" }
+          relativePath: { eq: "Screenshot 2021-02-06 at 17.09.13.png" }
         ) {
           id
           childImageSharp {
@@ -35,10 +33,10 @@ const ProjectMafia = props => (
             style={{ height: "100%" }}
           >
             <BackgroundImageInnerContainer>
-              <TitleContainer>The Bounce Funktion</TitleContainer>
-              {/* <Link to="/The-Bounce-Funktion"> */}
+              <TitleContainer>Alfa Library</TitleContainer>
+              {/* <Link to="/Alfa-Library"> */}
               <a
-                href="https://BounceFunktion.com"
+                href="https://github.com/Jamboree97/library"
                 target="_blank"
                 style={{
                   textDecoration: "none",
@@ -47,8 +45,8 @@ const ProjectMafia = props => (
                 }}
               >
                 <LearnMoreContainer>Learn more</LearnMoreContainer>
+                {/* </Link> */}
               </a>
-              {/* </Link> */}
             </BackgroundImageInnerContainer>
           </BackgroundImage>
         </ProjectContainer>
@@ -57,4 +55,4 @@ const ProjectMafia = props => (
   />
 )
 
-export default ProjectMafia
+export default ProjectLibrary

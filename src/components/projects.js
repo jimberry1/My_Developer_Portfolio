@@ -1,6 +1,4 @@
 import React from "react"
-import styled from "styled-components"
-import { StaticQuery, graphql } from "gatsby"
 import ProjectTBF from "./projects/projectTBF"
 import ProjectMafia from "./projects/projectMafia"
 import ProjectFloFitness from "./projects/projectFloFitness"
@@ -9,6 +7,8 @@ import {
   PaddingWrapper,
   TitleStyle,
 } from "./projects/componentStyles"
+import ProjectTicTacToe from "./projects/projectTicTacToe"
+import ProjectLibrary from "./projects/projectLibrary"
 
 const Projects = () => (
   <div>
@@ -23,6 +23,12 @@ const Projects = () => (
       </PaddingWrapper>
       <PaddingWrapper>
         <ProjectMafia />
+      </PaddingWrapper>
+      <PaddingWrapper>
+        <ProjectTicTacToe />
+      </PaddingWrapper>
+      <PaddingWrapper>
+        <ProjectLibrary />
       </PaddingWrapper>
     </ProjectsContainer>
   </div>

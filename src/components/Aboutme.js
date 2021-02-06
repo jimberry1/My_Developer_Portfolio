@@ -51,18 +51,13 @@ const Aboutme = () => {
         About me
       </h1>
       <AboutMeStyles>
-        {/* <div style={{ textAlign: "center" }}>
-          <AboutMeSpan>Hi!</AboutMeSpan>
-        </div>
-        <br /> */}
         <AboutMeSpan>
-          My name is Jim and I'm a full stack developer. I started coding a year
-          ago after I landed an awesome job in asset finance company at Alfa
-          Financial Software based in London. Since I began work, coding has
-          taken over my life and I'm constantly finding new projects to start on
-          or ways to integrate it into my life. I taught myself web development
-          in March last year and love the variety it brings to my coding
-          experience.
+          My name is Jim and I'm a 24 year old software developer based in
+          London. My work focuses on delivering object orientated software
+          solutions in an agile way to clients around the world. In my free time
+          I'm constantly trying to learn new skills; I taught myself web
+          development in March last year and love the variety it brings to my
+          coding experience.
         </AboutMeSpan>
       </AboutMeStyles>
     </AboutMeContainer>

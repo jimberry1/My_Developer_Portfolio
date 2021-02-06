@@ -1,8 +1,6 @@
 import BackgroundImage from "gatsby-background-image"
 import React from "react"
-import styled from "styled-components"
 import { StaticQuery, graphql, Link } from "gatsby"
-import Img from "gatsby-image"
 import {
   ProjectContainer,
   LearnMoreContainer,
@@ -10,17 +8,19 @@ import {
   BackgroundImageInnerContainer,
 } from "./componentStyles"
 
-const ProjectMafia = props => (
+//https://elated-fermat-1b2801.netlify.app/
+
+const ProjectTicTacToe = props => (
   <StaticQuery
     query={graphql`
-      query projectImageQuery {
+      query tictactoeImageQuery {
         file(
           childImageSharp: { gatsbyImageData: {} }
-          relativePath: { eq: "TBFlogo1024.jpeg" }
+          relativePath: { eq: "Screenshot 2021-02-06 at 16.50.43.png" }
         ) {
           id
           childImageSharp {
-            fluid(base64Width: 10, maxWidth: 500, maxHeight: 500) {
+            fluid(base64Width: 10) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -35,10 +35,10 @@ const ProjectMafia = props => (
             style={{ height: "100%" }}
           >
             <BackgroundImageInnerContainer>
-              <TitleContainer>The Bounce Funktion</TitleContainer>
-              {/* <Link to="/The-Bounce-Funktion"> */}
+              <TitleContainer>TicTacToe</TitleContainer>
+              {/* <Link to="/TicTacToe"> */}
               <a
-                href="https://BounceFunktion.com"
+                href="https://elated-fermat-1b2801.netlify.app"
                 target="_blank"
                 style={{
                   textDecoration: "none",
@@ -57,4 +57,4 @@ const ProjectMafia = props => (
   />
 )
 
-export default ProjectMafia
+export default ProjectTicTacToe

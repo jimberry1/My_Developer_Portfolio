@@ -8,6 +8,10 @@ const StyledArrowText = styled.h1`
   padding: 0px;
   margin: 0px;
   transition: transform 0.3s;
+
+  @media (max-width: 1000px) {
+    padding: 40px;
+  }
 `
 
 const StyledSeeMore = styled.div`
@@ -32,10 +36,15 @@ const StyledSeeMore = styled.div`
       transform: rotate(90deg);
     }
   }
+
+  @media (max-width: 1000px) {
+    width: 70%;
+    padding: 40px;
+  }
 `
 
 const StyledText = styled.h1`
-  padding: 0px;
+  padding: 30px;
   margin: 0px;
   font-family: "limelight";
 `

@@ -1,7 +1,7 @@
 import BackgroundImage from "gatsby-background-image"
 import React from "react"
 import styled from "styled-components"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import {
   ProjectContainer,
@@ -36,7 +36,9 @@ const ProjectFloFitness = props => (
           >
             <BackgroundImageInnerContainer>
               <TitleContainer>Flo's Fitness</TitleContainer>
-              <LearnMoreContainer>Learn more</LearnMoreContainer>
+              <Link to="/The-Bounce-Funktion">
+                {/* <LearnMoreContainer>No info available</LearnMoreContainer> */}
+              </Link>
             </BackgroundImageInnerContainer>
           </BackgroundImage>
         </ProjectContainer>

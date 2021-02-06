@@ -8,6 +8,11 @@ const TitleStyle = styled.h1`
   text-decoration: underline;
 `
 
+const PostBody = styled.div`
+  width: 80%;
+  display: flex;
+`
+
 export default function Template({ data }) {
   const post = data.markdownRemark
 
@@ -16,13 +21,15 @@ export default function Template({ data }) {
       className="personalInfoBody"
       style={{ height: "100vh", color: "white" }}
     >
-      <Link to="/Attempt1">Go back</Link>
+      <Link to="/">Go back</Link>
       <hr />
       <TitleStyle>{post.frontmatter.title}</TitleStyle>
       <h4>
         Posted by {post.frontmatter.author} on {post.frontmatter.date}
       </h4>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <PostBody>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </PostBody>
     </div>
   )
 }

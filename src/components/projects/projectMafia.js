@@ -1,8 +1,6 @@
 import BackgroundImage from "gatsby-background-image"
 import React from "react"
-import styled from "styled-components"
-import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { StaticQuery, graphql, Link } from "gatsby"
 import {
   ProjectContainer,
   LearnMoreContainer,
@@ -36,7 +34,19 @@ const ProjectMafia = props => (
           >
             <BackgroundImageInnerContainer>
               <TitleContainer>Mafia</TitleContainer>
-              <LearnMoreContainer>Learn more</LearnMoreContainer>
+              {/* <Link to="/The-Bounce-Funktion"> */}
+              <a
+                href="https://mafia-app-4fcde.web.app/"
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  backgroundColor: "transparent",
+                  color: "white",
+                }}
+              >
+                <LearnMoreContainer>Learn more</LearnMoreContainer>
+              </a>
+              {/* </Link> */}
             </BackgroundImageInnerContainer>
           </BackgroundImage>
         </ProjectContainer>

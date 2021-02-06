@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react"
-import { motion, AnimatePresence, useAnimation } from "framer-motion"
+import React, { useEffect } from "react"
+import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
 const FadeInWhenVisible = ({ children, delay }) => {

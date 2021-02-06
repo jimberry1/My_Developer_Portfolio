@@ -4,7 +4,8 @@ import styled from "styled-components"
 export const ProjectsContainer = styled.div`
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   justify-content: center;
   flex-wrap: wrap;
   padding: 25px;

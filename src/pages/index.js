@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react"
+import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import BackgroundImage from "gatsby-background-image"
 import "animate.css/animate.min.css"
@@ -38,7 +38,6 @@ const Index = ({ data }) => {
 
   const controls = useAnimation()
   return (
-    // <Layout>
     <div>
       <Element name="Home">
         <BackgroundImage
@@ -47,7 +46,7 @@ const Index = ({ data }) => {
           backgroundColor={`#040e18`}
         >
           <InnerContainerDiv>
-            <SEO title="Attempt1" />
+            <SEO title="Home" />
             <motion.div
               variants={titleVariants}
               initial="hidden"
@@ -121,10 +120,8 @@ const Index = ({ data }) => {
         <StyledAngleThingy></StyledAngleThingy>
         <StyledAngleThingy2></StyledAngleThingy2>
       </ArrowsContainer>
-      {/* <div>Final section bitch! My hobbies and side projects!</div> */}
       <Footer />
     </div>
-    // </Layout>
   )
 }
 

@@ -47,6 +47,10 @@ const StyledText = styled.h1`
   padding: 30px;
   margin: 0px;
   font-family: "limelight";
+
+  @media (max-width: 1000px) {
+    font-size: 20px;
+  }
 `
 
 const SeeMoreBox = () => {

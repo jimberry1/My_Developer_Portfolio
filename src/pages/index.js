@@ -23,6 +23,8 @@ import {
   seeMoreVariants,
   titleVariants,
 } from "../components/generalStyling/animationVariants"
+import TimelineContainer from "../components/timelineSection/timelineContainer"
+import wave from "../images/wave2.png"
 
 const Index = ({ data }) => {
   const imageData = data.file.childImageSharp.fluid
@@ -41,6 +43,10 @@ const Index = ({ data }) => {
     <div>
       <Element name="Home">
         <BackgroundImage
+          fadeIn="true"
+          durationFadeIn={3}
+          onStartLoad={() => console.log("started")}
+          onLoad={() => console.log("finished")}
           Tag="section"
           fluid={imageData}
           backgroundColor={`#040e18`}
@@ -52,7 +58,7 @@ const Index = ({ data }) => {
               initial="hidden"
               animate="visible"
             >
-              <TitleStyle style={{ color: "white" }}>Jim Berry</TitleStyle>
+              <TitleStyle style={{ color: "pink" }}>Jim Berry</TitleStyle>
             </motion.div>
             <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
             <motion.div
@@ -72,6 +78,12 @@ const Index = ({ data }) => {
       <Element name="AboutMe">
         <Profile />
       </Element>
+
+      <div>
+        <Element name="Timeline">
+          <TimelineContainer />
+        </Element>
+      </div>
       <div
         style={{
           position: "relative",
@@ -99,9 +111,10 @@ const Index = ({ data }) => {
             onMouseOver={() => {
               controls.start("visible")
             }}
+            onFocus={() => controls.start("visible")}
           >
             <TestingAbsolutePositionText>
-              So what have I been working on?
+              Want to check out any of my sites?
             </TestingAbsolutePositionText>
           </motion.div>
         </div>
@@ -131,7 +144,7 @@ export const query = graphql`
   query MyQuery {
     file(
       childImageSharp: { gatsbyImageData: {} }
-      relativePath: { eq: "spacebackground.png" }
+      relativePath: { eq: "JimGraduation.JPG" }
     ) {
       id
       childImageSharp {

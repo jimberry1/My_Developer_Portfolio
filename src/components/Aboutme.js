@@ -52,12 +52,9 @@ const Aboutme = () => {
       </h1>
       <AboutMeStyles>
         <AboutMeSpan>
-          My name is Jim and I'm a 24 year old software developer based in
-          London. My work focuses on delivering object orientated software
-          solutions in an agile way to clients around the world. In my free time
-          I'm constantly trying to learn new skills; I taught myself web
-          development in March last year and love the variety it brings to my
-          coding experience.
+          My name is Jim and I'm a 24 year old software developer living in
+          London. I currently work for Alfa Systems where I write and deliver
+          market leading asset finance software to clients around the globe.
         </AboutMeSpan>
       </AboutMeStyles>
     </AboutMeContainer>

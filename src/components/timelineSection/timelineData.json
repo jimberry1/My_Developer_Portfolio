@@ -1,0 +1,122 @@
+[
+  {
+    "id": "234234233245345",
+    "eventDate": "",
+    "eventLocation": "Cambridge",
+    "eventTitle": "Born and raised",
+    "eventBody": "I spent my early years growing up in the city of Cambridge",
+    "eventWeight": ""
+  },
+  {
+    "id": "2342342332324245345",
+    "eventDate": "",
+    "eventLocation": "University Of Warwick",
+    "eventTitle": "Started University",
+    "eventBody": "I began on my 4 year Master's degree in Chemistry at the University of Warwick",
+    "eventWeight": ""
+  },
+  {
+    "id": "34lji3ui3i",
+    "eventDate": "",
+    "eventLocation": "Singapore",
+    "eventTitle": "International placement at Nanyang Technological University",
+    "eventBody": "I spent 8 months on an international research placement studying lead perovskite solar cells at one of the top universities in the world.",
+    "eventWeight": ""
+  },
+  {
+    "id": "2352342",
+    "eventDate": "",
+    "eventLocation": "University of Warwick",
+    "eventTitle": "Graduation!",
+    "eventBody": "Graduated from the University of Warwick with a 1st class degree in chemistry",
+    "eventWeight": ""
+  },
+  {
+    "id": "sddsdfsfsdf2",
+    "eventDate": "",
+    "eventLocation": "London",
+    "eventTitle": "Accepted job at Alfa",
+    "eventBody": "After University I applied to become a software developer and shortly afterwards I began work for Alfa Financial Software Ltd., a company that produces Asset Finance software for clients around the world",
+    "eventWeight": ""
+  },
+  {
+    "id": "dsfdsfsdfsfsdfds",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Java - Fundamentals of programming course",
+    "eventBody": "After joining Alfa I began a three month intensive Java 8 course started with a crash course in Java",
+    "eventWeight": ""
+  },
+  {
+    "id": "sdfsdf23552353gehegd",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Implementation consultant",
+    "eventBody": "My first role within Alfa was as a software implementation consultant, regularly travelling out to Germany to help clients with our product",
+    "eventWeight": ""
+  },
+  {
+    "id": "sdfs23523523gw3g",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Learnt React",
+    "eventBody": "At the start of the pandemic I started learning ReactJS in my spare time, beginning with courses and moving onto challenges, reading and side projects",
+    "eventWeight": ""
+  },
+  {
+    "id": "sdfs34532532gwew",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Built my first React Application",
+    "eventBody": "During summer of 2019 I built my first react application. It was build to help play a game my friends and I had been enjoying over Zoom",
+    "eventWeight": ""
+  },
+  {
+    "id": "sdfwwgf3we",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Began full-time Software development",
+    "eventBody": "In September 2020 I moved roles within Alfa to a full time development position. After expressing my desire to improve my coding ability I joined the Alfa product center where I wrote code to facilitate automated payments, workflow and business rules.",
+    "eventWeight": ""
+  },
+  {
+    "id": "sdfw2342342wgf3we",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Won the Alfa annual Hackathon",
+    "eventBody": "Over the course of 2 days I created a full stack React and Springboot application to manage our internal library. The project came first place in the Company category of our annual Hackathon, beating 20 other entries.",
+    "eventWeight": ""
+  },
+  {
+    "id": "wrg3g3453453f3",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "The Bounce Funktion published",
+    "eventBody": "In October 2020 began work on a small scale social media site to share and collate music. The project is ongoing and we are looking to bolster our monthly active users",
+    "eventWeight": ""
+  },
+  {
+    "id": "wef23wf3wf3w",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Psych 2 published",
+    "eventBody": "In the spirit of lockdown I decided to create a new interactive web application game that could be played for multiple players. The game was a great success",
+    "eventWeight": ""
+  },
+  {
+    "id": "wef23wf1231233wf3w",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Promoted to Software Engineer",
+    "eventBody": "In July 2021 I officially completed my two year graduate scheme ahead of schedule and was promoted to the position of full-time software engineer",
+    "eventWeight": ""
+  },
+  {
+    "id": "wef23wf1313131413wf3w",
+    "eventDate": "",
+    "eventLocation": "",
+    "eventTitle": "Craft Art Fair auction site went live",
+    "eventBody": "In the spirit of lockdown I decided to create a new interactive web application game that could be played for multiple players. The game was a great success",
+    "eventWeight": ""
+  }
+]

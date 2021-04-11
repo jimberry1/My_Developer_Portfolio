@@ -65,6 +65,7 @@ const SkillsBar = props => {
               skillRating={skill.level}
               skillTitle={skill.skill}
               shouldAnimate={shouldAnimate}
+              key={skill.skill}
             />
           )
         })}

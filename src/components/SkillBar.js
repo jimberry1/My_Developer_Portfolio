@@ -23,35 +23,35 @@ const skillsVariants = {
   },
 }
 
-const SkillBar = props => {
-  const SkillBar = styled.div`
-    height: 20px;
-    width: ${props => props.skillRating}%;
-    background: green;
-    border-radius: 5px;
-    content: "";
-    box-shadow: "0px 0px 8px rgb(255, 255, 255)";
-  `
-  const SkillTitle = styled.span`
-    font-size: 25px;
-    color: white;
-    margin-bottom: 5px;
-    margin-left: 15px;
-    transition: 0.4s;
-  `
+const SkillBarContainer = styled.div`
+  height: 20px;
+  width: ${props => props.skillRating}%;
+  background: green;
+  border-radius: 5px;
+  content: "";
+  box-shadow: "0px 0px 8px rgb(255, 255, 255)";
+`
+const SkillTitle = styled.span`
+  font-size: 25px;
+  color: white;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  transition: 0.4s;
+`
 
-  const SkillsContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    margin-top: 5px;
-    &:hover {
-      ${SkillTitle} {
-        color: red;
-      }
+const SkillsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 5px;
+  &:hover {
+    ${SkillTitle} {
+      color: red;
     }
-  `
+  }
+`
 
+const SkillBar = props => {
   const controls = useAnimation()
 
   console.log(props.shouldAnimate)

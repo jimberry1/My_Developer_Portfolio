@@ -24,7 +24,6 @@ import {
   titleVariants,
 } from "../components/generalStyling/animationVariants"
 import TimelineContainer from "../components/timelineSection/timelineContainer"
-import wave from "../images/wave2.png"
 
 const Index = ({ data }) => {
   const imageData = data.file.childImageSharp.fluid

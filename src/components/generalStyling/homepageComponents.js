@@ -3,20 +3,29 @@ import { keyframes } from "styled-components"
 import styled from "styled-components"
 
 export const InnerContainerDiv = styled.div`
-  color: white;
-  display: flex;
+  color: black;
+  // display: flex;
   position: relative;
+  margin-left: 50px;
   flex-direction: column;
   align-items: center;
   padding: 25px;
   padding-top: 100px;
   height: 100vh;
+  @media (max-width: 600px) {
+    margin-left: 10px;
+    padding-top: 30px;
+  }
 `
 
 export const TitleStyle = styled.h1`
   margin-top: 100px;
   font-size: 125px;
   color: white;
+
+  @media (max-width: 600px) {
+    font-size: 100px;
+  }
 `
 
 export const TestingAbsolutePosition = styled.div`

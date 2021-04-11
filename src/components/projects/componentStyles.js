@@ -36,6 +36,10 @@ export const ProjectContainer = styled.div`
     transform: scale(1.05);
     box-shadow: gray 8px 8px 8px 8px;
   }
+  @media (max-width: 600px) {
+    height: 300px;
+    width: 300px;
+  }
 `
 export const LearnMoreContainer = styled.div`
   display: flex;

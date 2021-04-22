@@ -54,8 +54,6 @@ const SkillsContainer = styled.div`
 const SkillBar = props => {
   const controls = useAnimation()
 
-  console.log(props.shouldAnimate)
-
   useEffect(() => {
     if (props.shouldAnimate) {
       console.log("running controls.startAnimate")
